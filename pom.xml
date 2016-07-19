@@ -18,8 +18,7 @@
 
     <properties>
         <eureka-version>2.0-Alpha-32</eureka-version>
-        <ec-user-agreement-service>1.0-Alpha-1</ec-user-agreement-service>
-        <cas-client-version>3.2.1</cas-client-version>
+        <ec-user-agreement-service-version>1.0-Alpha-1</ec-user-agreement-service-version>
         <cas-server-version>2.0-Alpha-5</cas-server-version>
         <aiw-i2b2-etl-version>2.0-Alpha-29</aiw-i2b2-etl-version>
     </properties>
@@ -76,14 +75,13 @@
         <dependency>
             <groupId>org.eurekaclinical</groupId>
             <artifactId>eurekaclinical-user-agreement-service</artifactId>
-            <version>${ec-user-agreement-service}</version>
+            <version>${ec-user-agreement-service-version}</version>
             <scope>compile</scope>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.jasig.cas.client</groupId>
             <artifactId>cas-client-core</artifactId>
-            <version>${cas-client-version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
