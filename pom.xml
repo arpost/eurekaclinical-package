@@ -18,8 +18,8 @@
 
     <properties>
         <eureka-version>2.0-Alpha-33</eureka-version>
-        <ec-user-agreement-service-version>1.0-Alpha-4</ec-user-agreement-service-version>
-        <ec-user-agreement-webapp-version>1.0-Alpha-1</ec-user-agreement-webapp-version>
+        <ec-user-agreement-service-version>1.0-Alpha-5</ec-user-agreement-service-version>
+        <ec-user-agreement-webapp-version>1.0-Alpha-2</ec-user-agreement-webapp-version>
         <cas-server-version>2.0-Alpha-5</cas-server-version>
         <aiw-i2b2-etl-version>2.0-Alpha-29</aiw-i2b2-etl-version>
     </properties>
