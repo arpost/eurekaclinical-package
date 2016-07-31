@@ -12,14 +12,14 @@
     <parent>
         <groupId>org.eurekaclinical</groupId>
         <artifactId>eurekaclinical-parent-standard-deps</artifactId>
-        <version>1-Alpha-4</version>
+        <version>1-Alpha-5</version>
     </parent>
     <url>http://eurekaclinical.org</url>
 
     <properties>
-        <eureka-version>2.0-Alpha-33</eureka-version>
-        <ec-user-agreement-service-version>1.0-Alpha-5</ec-user-agreement-service-version>
-        <ec-user-agreement-webapp-version>1.0-Alpha-2</ec-user-agreement-webapp-version>
+        <eureka-version>2.0-Alpha-34</eureka-version>
+        <ec-user-agreement-service-version>1.0-Alpha-6</ec-user-agreement-service-version>
+        <ec-user-agreement-webapp-version>1.0-Alpha-3</ec-user-agreement-webapp-version>
         <cas-server-version>2.0-Alpha-5</cas-server-version>
         <aiw-i2b2-etl-version>2.0-Alpha-29</aiw-i2b2-etl-version>
     </properties>
