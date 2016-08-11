@@ -204,13 +204,13 @@
                         </configuration>
                     </execution>
                     <execution>
-                        <id>copy-changelogs-from-eurekaclinical-parent</id>
+                        <id>copy-changelogs-from-eurekaclinical-ontology</id>
                         <phase>package</phase>
                         <goals>
                             <goal>unpack-dependencies</goal>
                         </goals>
                         <configuration>
-                            <includeArtifactIds>eurekaclinical-parent</includeArtifactIds>
+                            <includeArtifactIds>eurekaclinical-ontology</includeArtifactIds>
                             <includes>
                                 dbmigration/i2b2-meta-schema-changelog.xml,
                                 dbmigration/eureka-ontology-EK_DEMOG-changelog.xml,
