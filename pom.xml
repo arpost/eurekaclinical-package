@@ -12,18 +12,19 @@
     <parent>
         <groupId>org.eurekaclinical</groupId>
         <artifactId>eurekaclinical-parent-standard-deps</artifactId>
-        <version>1-Alpha-5</version>
+        <version>1-Alpha-6</version>
     </parent>
     <url>http://eurekaclinical.org</url>
 
     <properties>
-        <eureka-version>2.0-Alpha-35</eureka-version>
+        <eureka-version>2.0-Alpha-37</eureka-version>
         <ec-user-agreement-service-version>1.0-Alpha-9</ec-user-agreement-service-version>
         <ec-i2b2-integration-service-version>1.0-Alpha-12</ec-i2b2-integration-service-version>
         <ec-i2b2-integration-webapp-version>1.0-Alpha-4</ec-i2b2-integration-webapp-version>
         <ec-user-agreement-webapp-version>1.0-Alpha-6</ec-user-agreement-webapp-version>
         <cas-server-version>2.0-Alpha-6</cas-server-version>
-        <aiw-i2b2-etl-version>2.0-Alpha-30</aiw-i2b2-etl-version>
+        <aiw-i2b2-etl-version>2.0-Alpha-31</aiw-i2b2-etl-version>
+        <eurekaclinical-ontology-version>1.0-Alpha-1</eurekaclinical-ontology-version>
     </properties>
     
     <scm>
@@ -145,6 +146,12 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
+            <groupId>org.eurekaclinical</groupId>
+            <artifactId>eurekaclinical-ontology</artifactId>
+            <version>${eurekaclinical-ontology-version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <scope>compile</scope>
@@ -176,7 +183,7 @@
                 <artifactId>maven-dependency-plugin</artifactId>
                 <executions>
                     <execution>
-                        <id>copy-sql-from-aiw-i2b2-etl</id>
+                        <id>copy-sql-and-changelogs-from-aiw-i2b2-etl</id>
                         <phase>package</phase>
                         <goals>
                             <goal>unpack-dependencies</goal>
@@ -191,6 +198,20 @@
                                 sql/eureka_meta_package_oracle.sql,
                                 sql/eureka_meta_package_body_oracle.sql,
                                 dbmigration/i2b2-data-schema-changelog.xml,
+                                dbmigration/eureka-ontology-QT_BREAKDOWN_PATH-changelog.xml
+                            </includes>
+                            <outputDirectory>${project.build.directory}/i2b2</outputDirectory>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>copy-changelogs-from-eurekaclinical-parent</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>unpack-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <includeArtifactIds>eurekaclinical-parent</includeArtifactIds>
+                            <includes>
                                 dbmigration/i2b2-meta-schema-changelog.xml,
                                 dbmigration/eureka-ontology-EK_DEMOG-changelog.xml,
                                 dbmigration/eureka-ontology-EK_ICD9D-changelog.xml,
@@ -230,8 +251,7 @@
                                 dbmigration/eureka-ontology-EK_ICD10PCS-changelog.09.xml,
                                 dbmigration/eureka-ontology-EK_ICD10PCS-changelog.10.xml,
                                 dbmigration/eureka-ontology-EK_ICD10PCS-changelog.11.xml,
-                                dbmigration/eureka-ontology-EK_ICD10PCS-changelog.12.xml,
-                                dbmigration/eureka-ontology-QT_BREAKDOWN_PATH-changelog.xml
+                                dbmigration/eureka-ontology-EK_ICD10PCS-changelog.12.xml
                             </includes>
                             <outputDirectory>${project.build.directory}/i2b2</outputDirectory>
                         </configuration>
