@@ -18,10 +18,10 @@
 
     <properties>
         <eureka-version>2.0-Alpha-41</eureka-version>
-        <ec-user-agreement-service-version>1.0-Alpha-13</ec-user-agreement-service-version>
+        <ec-user-agreement-service-version>1.0-Alpha-14</ec-user-agreement-service-version>
         <ec-i2b2-integration-service-version>1.0-Alpha-14</ec-i2b2-integration-service-version>
         <ec-i2b2-integration-webapp-version>1.0-Alpha-5</ec-i2b2-integration-webapp-version>
-        <ec-user-agreement-webapp-version>1.0-Alpha-11</ec-user-agreement-webapp-version>
+        <ec-user-agreement-webapp-version>1.0-Alpha-12</ec-user-agreement-webapp-version>
         <cas-server-version>2.0-Alpha-6</cas-server-version>
         <aiw-i2b2-etl-version>2.0-Alpha-35</aiw-i2b2-etl-version>
         <eurekaclinical-ontology-version>1.0-Alpha-2</eurekaclinical-ontology-version>
