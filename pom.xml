@@ -24,7 +24,7 @@
         <ec-user-agreement-webapp-version>1.0-Alpha-11</ec-user-agreement-webapp-version>
         <cas-server-version>2.0-Alpha-6</cas-server-version>
         <aiw-i2b2-etl-version>2.0-Alpha-35</aiw-i2b2-etl-version>
-        <eurekaclinical-ontology-version>1.0-Alpha-1</eurekaclinical-ontology-version>
+        <eurekaclinical-ontology-version>1.0-Alpha-2</eurekaclinical-ontology-version>
     </properties>
     
     <scm>
