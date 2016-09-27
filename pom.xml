@@ -17,13 +17,13 @@
     <url>http://eurekaclinical.org</url>
 
     <properties>
-        <eureka-version>2.1.1</eureka-version>
+        <eureka-version>2.1.2</eureka-version>
         <ec-user-agreement-service-version>1.0</ec-user-agreement-service-version>
         <ec-i2b2-integration-service-version>1.1</ec-i2b2-integration-service-version>
         <ec-i2b2-integration-webapp-version>1.0</ec-i2b2-integration-webapp-version>
         <ec-user-agreement-webapp-version>1.0</ec-user-agreement-webapp-version>
         <cas-server-version>2.0</cas-server-version>
-        <aiw-i2b2-etl-version>2.1.1</aiw-i2b2-etl-version>
+        <aiw-i2b2-etl-version>2.1.2</aiw-i2b2-etl-version>
         <eurekaclinical-ontology-version>1.0</eurekaclinical-ontology-version>
     </properties>
     
