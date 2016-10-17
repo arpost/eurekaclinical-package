@@ -3,7 +3,7 @@
 
     <groupId>org.eurekaclinical</groupId>
     <artifactId>eurekaclinical-package</artifactId>
-    <version>1.5.2-SNAPSHOT</version>
+    <version>1.5.2</version>
     <packaging>pom</packaging>
 
     <name>Eureka! Clinical Package</name>
@@ -31,7 +31,7 @@
         <developerConnection>scm:git:https://github.com/eurekaclinical/eurekaclinical-package.git</developerConnection>
         <connection>scm:git:https://github.com/eurekaclinical/eurekaclinical-package.git</connection>
         <url>https://github.com/eurekaclinical/eurekaclinical-package.git</url>
-        <tag>HEAD</tag>
+        <tag>eurekaclinical-package-1.5.2</tag>
     </scm>
     
     <issueManagement>
