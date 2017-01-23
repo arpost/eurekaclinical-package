@@ -106,20 +106,20 @@
             <scope>compile</scope>
             <type>war</type>
         </dependency>
-				<dependency>
-							<groupId>org.eurekaclinical</groupId>
-							<artifactId>eurekaclinical-user-webapp</artifactId>
-							<version>${ec-user-webapp-version}</version>
-							<scope>compile</scope>
+	<dependency>
+            <groupId>org.eurekaclinical</groupId>
+            <artifactId>eurekaclinical-user-webapp</artifactId>
+            <version>${ec-user-webapp-version}</version>
+            <scope>compile</scope>
             <type>war</type>
-				</dependency>          
-				<dependency>
-							<groupId>org.eurekaclinical</groupId>
-							<artifactId>eurekaclinical-user-service</artifactId>
-							<version>${ec-user-service-version}</version>
-							<scope>compile</scope>
+        </dependency>          
+        <dependency>
+            <groupId>org.eurekaclinical</groupId>
+            <artifactId>eurekaclinical-user-service</artifactId>
+            <version>${ec-user-service-version}</version>
+            <scope>compile</scope>
             <type>war</type>
-				</dependency>   
+        </dependency>   
         <dependency>
             <groupId>org.jasig.cas.client</groupId>
             <artifactId>cas-client-core</artifactId>
