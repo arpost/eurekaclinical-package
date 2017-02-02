@@ -17,7 +17,7 @@
     <url>http://eurekaclinical.org</url>
 
     <properties>
-        <eureka-version>3.0-Alpha-9</eureka-version>
+        <eureka-version>3.0-Alpha-10</eureka-version>
         <ec-user-agreement-service-version>1.1</ec-user-agreement-service-version>
         <ec-i2b2-integration-service-version>1.3.1</ec-i2b2-integration-service-version>
         <ec-i2b2-integration-webapp-version>1.0.1</ec-i2b2-integration-webapp-version>
