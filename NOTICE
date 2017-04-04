@@ -20,7 +20,6 @@ This project includes:
   Apache Commons CSV under Apache License, Version 2.0
   Apache Commons Lang under Apache License, Version 2.0
   Apache Log4j under The Apache Software License, Version 2.0
-  Apache ServiceMix :: Bundles :: xstream under The Apache Software License, Version 2.0
   avalon-framework under Apache License, Version 2.0
   CAS Server under Apache License, Version 2.0
   Datastore under Apache License, Version 2.0
@@ -42,7 +41,6 @@ This project includes:
   JavaMail API under CDDL/GPLv2+CE
   JavaUtil under Apache License, Version 2.0
   je under Sleepycat License
-  kXML 2 is a small XML pull parser based on the common XML pull API under BSD style or Public Domain
   Logging under The Apache Software License, Version 2.0
   logkit under Apache License, Version 2.0
   mvel under The Apache Software License, Version 2.0
