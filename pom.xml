@@ -17,7 +17,7 @@
     <url>http://eurekaclinical.org</url>
 
     <properties>
-        <eureka-version>3.0-Alpha-23</eureka-version>
+        <eureka-version>3.0-Alpha-24</eureka-version>
         <ec-user-agreement-service-version>2.0-Alpha-3</ec-user-agreement-service-version>
         <ec-user-agreement-webapp-version>2.0-Alpha-3</ec-user-agreement-webapp-version>
         <ec-i2b2-integration-service-version>1.0-Alpha-7</ec-i2b2-integration-service-version>
@@ -25,8 +25,8 @@
         <cas-server-version>3.0-Alpha-12</cas-server-version>
         <aiw-i2b2-etl-version>3.0-Alpha-19</aiw-i2b2-etl-version>
         <eurekaclinical-ontology-version>2.0-Beta-1</eurekaclinical-ontology-version>
-        <ec-user-webapp-version>1.0-Alpha-16</ec-user-webapp-version>
-        <ec-user-service-version>1.0-Alpha-12</ec-user-service-version>
+        <ec-user-webapp-version>1.0-Alpha-19</ec-user-webapp-version>
+        <ec-user-service-version>1.0-Alpha-15</ec-user-service-version>
     </properties>
     
     <scm>
